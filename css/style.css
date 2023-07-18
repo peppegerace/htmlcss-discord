@@ -75,7 +75,7 @@ section {
 }
 
 .section-grey {
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 /* properties of section contents */
@@ -96,7 +96,7 @@ h1 {
 
 .box p,
 .text p {
-  line-height: 200%;
+  line-height:150%;
 }
 
 .box a {
