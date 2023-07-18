@@ -6,8 +6,15 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-color: white;
+  font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
 
 .container {
   max-width: 1200px;
@@ -15,15 +22,21 @@ body {
   margin: auto;
 }
 
+a.btnw {
+  background-color: white;
+  color: #23272a;
+}
+
+a.btng {
+  background-color: #23272a ;
+  color: white;
+}
+
 /* header */
 header {
   background-color: #255EE9;
-  padding: 10px;
+  padding: 20px;
   font-size: .9rem;
-}
-
-a {
-  text-decoration: none;
 }
 
 .container-header {
@@ -37,17 +50,10 @@ a {
 }
 
 .menu a {
-  padding: 0 10px;
+  padding: 0 20px;
   color: white;
 }
-
-.login a {
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 15px;
-}
 /* /header */
-
 
 /* main */
 section {
@@ -61,12 +67,11 @@ section {
 }
 
 /* section properties */
-.section-blue {
-  background-color: darkblue;
-}
-
-.section-white {
-  background-color: white;
+.jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
 }
 
 .section-grey {
@@ -75,11 +80,28 @@ section {
 
 /* properties of section contents */
 .box {
-  background-color: magenta;
+  background-color: rgba(140, green, blue, .2);
   width: 80%;
-  max-width: 800px;
-  height: 300px;
+  max-width: 900px;
   border: 1px dashed black;
+  padding: 40px;
+  text-align: center;
+}
+
+.box *{
+  margin-bottom: 20px;
+}
+
+.box h1 {
+  font-size: 2.5rem;
+}
+
+.box p {
+  line-height: 200%;
+}
+
+.box a {
+  font-size: 1.2rem;
 }
 
 .image {
