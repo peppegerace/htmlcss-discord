@@ -90,11 +90,12 @@ section {
   margin-bottom: 20px;
 }
 
-.box h1 {
+h1 {
   font-size: 2.5rem;
 }
 
-.box p {
+.box p,
+.text p {
   line-height: 200%;
 }
 
@@ -103,17 +104,17 @@ section {
 }
 
 .image {
-  background-color: #255EE9;
-  border: 1px dashed black;
   width: 60%;
-  height: 300px;
+  margin: 40px;
 }
 
 .text {
-  background-color: palevioletred;
-  border: 1px dashed black;
   width: 40%;
-  height: 300px;
+  padding: 70px 40px;
+}
+
+.text * {
+  margin-bottom: 40px;
 }
 
 .big-box {
