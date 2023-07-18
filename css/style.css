@@ -16,6 +16,15 @@ a {
   border-radius: 20px;
 }
 
+h1,
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 .container {
   max-width: 1200px;
   width: 90%;
@@ -90,10 +99,6 @@ section {
   margin-bottom: 20px;
 }
 
-h1,
-h2 {
-  font-size: 2.5rem;
-}
 
 .box p,
 .text p,
@@ -149,17 +154,21 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding: 40px 0;
+  color: white;
 }
 
 hr {
   margin: 40px auto;
-  
 }
 
 .top-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.section-left {
+  padding: 40px;
 }
 
 .bottom-footer {
@@ -172,12 +181,32 @@ hr {
 
 /* properties of top-footer */
 .section-left {
-  background-color: palevioletred;
   width: 30%;
   height: 400px;
   border: 1px dashed black;
 }
 
+.section-left h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #7289da;
+}
+
+.section-left img {
+  width: 20px;
+}
+
+.section-left span {
+  font-size: 0.7rem;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social i {
+  margin: 5px;
+}
 .section-right {
   background-color: lightseagreen;
   width: 70%;
