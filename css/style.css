@@ -41,6 +41,11 @@ a.btng {
   color: white;
 }
 
+a.btnb {
+  background-color: #7289da ;
+  color: white;
+}
+
 /* header */
 header {
   background-color: #255EE9;
@@ -140,9 +145,7 @@ section {
   margin-bottom: 50px;
 }
 
-.btnb {
-  background-color: #7289da ;
-  color: white;
+.section-link .btnb {
   font-size: 1.2rem;
 }
 /* /main */
@@ -157,8 +160,12 @@ footer {
   color: white;
 }
 
+footer a {
+  color: white;
+
+}
 hr {
-  margin: 40px auto;
+  margin: 40px auto 20px auto;
 }
 
 .top-footer {
@@ -168,7 +175,6 @@ hr {
 }
 
 .bottom-footer {
-  padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -221,19 +227,13 @@ hr {
   list-style: none;
   margin: 10px 0;
 }
-.section-right ul li a {
-  color: white;
-}
 
 .section-right .col {
   width: calc(100% / 4);
 }
 
 /* properties of buttom-footer */
-.logo-footer,
-button {
-  background-color: lightcoral;
-  border: 1px dashed black;
-  padding: 5px;
-} 
+.bottom-footer a {
+  font-size: .9rem;
+}
 /* /footer */
