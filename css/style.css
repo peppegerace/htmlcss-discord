@@ -148,6 +148,21 @@ section {
 .section-link .btnb {
   font-size: 1.2rem;
 }
+
+/* BONUS */
+.bonus,
+.bonus-wht {
+  display: flex;
+  justify-content: end;
+}
+
+svg {
+  width: 100%;
+}
+
+.bonus-wht svg {
+  transform: rotate(180deg);
+}
 /* /main */
 
 /* footer */
